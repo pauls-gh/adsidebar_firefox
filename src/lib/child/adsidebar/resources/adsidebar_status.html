@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+  - This file is part of AdSidebar <http://adsidebar.com/>,
+  - Copyright (C) 2016 Paul Shaw
+  -
+  - AdSidebar is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - AdSidebar is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with AdSidebar.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<html>
+<head>
+</head>
+
+<style>
+    body {
+        color:white;
+        background:black;
+        margin:0px;
+        border:0px;
+        padding:0px;
+        z-index:2147483647;
+    }
+
+    #statusdiv {
+        height: 24px;
+    }
+</style>
+
+
+<body>
+
+<div id="statusdiv">
+    <style>
+    .adsidebar_button {
+        background-color:black; 
+        height: 24px;
+        width : 24px;
+        line-height: 24px;
+        float :right;
+        margin:0px;
+        border:0px;
+        padding:0px;
+    }   
+    
+    .adsidebar_button:hover {
+        background-color: gray; 
+    }
+
+    .adsidebar_status_head {
+        font:10px Georgia;
+        height: 12px;
+        line-height: 12px;    
+    }
+    
+    .adsidebar_status_text {
+        font:10px Georgia;
+        color: yellow;
+        height: 12px;
+        line-height: 12px;   
+    }
+    
+    .adsidebar_icon {
+        height: 24x;
+        line-height: 24px;    
+        float :left;
+    }            
+    </style>
+    
+	<div class="adsidebar_status_head" id="adsidebar_status_head"> AdSidebar Status Message</div>
+	<div class="adsidebar_status_text" id="adsidebar_status_text"> Website loaded additional ads</div>
+    
+</div>
+
+</body>
+</html>

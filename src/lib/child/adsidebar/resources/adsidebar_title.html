@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+  - This file is part of AdSidebar <http://adsidebar.com/>,
+  - Copyright (C) 2016 Paul Shaw
+  -
+  - AdSidebar is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - AdSidebar is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with AdSidebar.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<html>
+<head>
+</head>
+
+<style>
+    body {
+        color:white;
+        background:black;
+        margin:0px;
+        border:0px;
+        padding:0px;
+        z-index:2147483647;
+    }
+
+    #titlediv {
+        height: 24px;
+    }
+</style>
+
+
+<body>
+
+<div id="titlediv">
+    <style>
+    .adsidebar_button {
+        background-color:black; 
+        height: 24px;
+        width : 24px;
+        line-height: 24px;
+        float :right;
+        margin:0px;
+        border:0px;
+        padding:0px;
+    }   
+    
+    .adsidebar_button:hover {
+        background-color: gray; 
+    }
+
+    .adsidebar_title {
+        font:14px Georgia;
+        height: 24px;
+        line-height: 24px;    
+    }
+    
+    .adsidebar_icon {
+        height: 24x;
+        line-height: 24px;    
+        float :left;
+    }            
+    </style>
+    
+    <img src="resource://adsidebar/adsidebar-icon.png" class="adsidebar_icon" alt="close" height="24" width="24" />
+	<span class="adsidebar_title" id="adsidebar_title_text">AdSidebar</span>
+    <button class="adsidebar_button" id="adsidebar_close_button">
+        <img src="resource://adsidebar/adsidebar-icon-delete.png" alt="close" height="24" width="24" />
+     </button>
+    <button class="adsidebar_button" id="adsidebar_expand_button">
+        <img src="resource://adsidebar/adsidebar-icon-expand.png" id="adsidebar_expand_img" alt="expand" height="24" width="24" />
+    </button>
+    <div style = "clear:all"> </div>
+</div>
+
+</body>
+</html>
